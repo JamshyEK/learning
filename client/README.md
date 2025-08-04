@@ -53,5 +53,5 @@ export default tseslint.config({
 })
 ```
 
-Features
+## Features
 => Timer
