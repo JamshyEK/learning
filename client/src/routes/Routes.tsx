@@ -1,6 +1,7 @@
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import { lazy } from "react";
 import Timer from "../pages/Timer";
+import Todo from "../pages/Todo";
 // import ProtectedRoute from "../components/ProtectedRoute";
 // import MainLayout from "../components/Layout/MainLayout";
 
@@ -13,6 +14,8 @@ const Register = lazy(() => import("../pages/Register"));
 const router = createBrowserRouter([
   //task routes
   { path: "/timer", element: <Timer /> },
+  { path: "/todo", element: <Todo /> },
+
   // Public routes
   { path: "/login", element: <Login /> },
   { path: "/register", element: <Register /> },
