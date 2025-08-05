@@ -7,7 +7,7 @@ const Timer: React.FC = () => {
       <h1 className='text-center text-4xl pt-2 font-thin text-stone-700'>
         --Timers--
       </h1>
-      <div className='h-screen flex flex-col gap-2 justify-center items-center shadow'>
+      <div className='h-screen flex gap-6 justify-center items-center shadow'>
         <StopWatch />
         <Countdown />
       </div>
